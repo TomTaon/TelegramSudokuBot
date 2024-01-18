@@ -1,7 +1,8 @@
 import telebot
 import sudoku
+from config import TOKEN_KEY
 
-TOKEN = "place for your bot token"
+TOKEN = TOKEN_KEY
 
 bot = telebot.TeleBot(TOKEN)
 
